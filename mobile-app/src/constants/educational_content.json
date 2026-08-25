@@ -1,0 +1,106 @@
+
+{
+  "app_theme": {
+    "primary": "#4CAF50",
+    "accent_pink": "#FF4081",
+    "accent_yellow": "#FFD54F",
+    "background": "#F9FBE7"
+  },
+  "waste_categories": [
+    {
+      "id": "plastic",
+      "name": "Plastic Waste",
+      "base_points": 5,
+      "proof_points": 25,
+      "color": "#4CAF50",
+      "description": "Bottles, containers, and packaging.",
+      "dos": [
+        "Rinse clean before disposal.",
+        "Crush bottles to save space."
+      ],
+      "donts": [
+        "Do not dispose of multi-layered laminate wrappers.",
+        "Do not leave dirty food residue inside."
+      ],
+      "environmental_impact": "Takes up to 450 years to decompose in landfills."
+    },
+    {
+      "id": "glass",
+      "name": "Glass Waste",
+      "base_points": 8,
+      "proof_points": 28,
+      "color": "#00BCD4",
+      "description": "Bottles, jars, and glassware.",
+      "dos": [
+        "Rinse and remove metal or plastic caps.",
+        "Sort by clear, brown, and green glass if bins are separated."
+      ],
+      "donts": [
+        "Do not mix broken window panes or lightbulbs."
+      ],
+      "environmental_impact": "100% recyclable endlessly without loss of purity."
+    },
+    {
+      "id": "battery",
+      "name": "Hazardous Battery",
+      "base_points": 20,
+      "proof_points": 40,
+      "color": "#FF4081",
+      "description": "Lithium-ion, alkaline, and rechargeable batteries.",
+      "dos": [
+        "Cover terminals with non-conductive tape.",
+        "Drop strictly into designated e-waste bins."
+      ],
+      "donts": [
+        "Never throw in general household waste bins."
+      ],
+      "environmental_impact": "Contains toxic heavy metals that leach into groundwater."
+    },
+    {
+      "id": "e_waste",
+      "name": "Electronic Waste",
+      "base_points": 30,
+      "proof_points": 50,
+      "color": "#9C27B0",
+      "description": "Cables, chargers, and small electronics.",
+      "dos": [
+        "Hand over to campus e-waste recycling kiosks.",
+        "Separate detachable wires and accessories."
+      ],
+      "donts": [
+        "Do not burn wires to extract copper."
+      ],
+      "environmental_impact": "Diverts valuable metals from landfills."
+    },
+    {
+      "id": "metal",
+      "name": "Metal & Cans",
+      "base_points": 10,
+      "proof_points": 30,
+      "color": "#607D8B",
+      "description": "Aluminum cans, tin food cans, and clean foil.",
+      "dos": [
+        "Rinse clean and flatten beverage cans."
+      ],
+      "donts": [
+        "Do not include aerosol cans with liquid residue."
+      ],
+      "environmental_impact": "Recycling aluminum saves 95% energy vs raw mining."
+    },
+    {
+      "id": "organic",
+      "name": "Organic Waste",
+      "base_points": 5,
+      "proof_points": 25,
+      "color": "#8D6E63",
+      "description": "Food scraps, fruit peels, and leaves.",
+      "dos": [
+        "Deposit directly into green composting bins."
+      ],
+      "donts": [
+        "Do not mix plastic packaging with food waste."
+      ],
+      "environmental_impact": "Prevents methane emissions in landfills."
+    }
+  ]
+}

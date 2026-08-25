@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
-from backend.routes import classify, chat
+from backend.routes import classify, chat, rewards
 import uvicorn
 import sys
 import os
@@ -14,6 +14,7 @@ app.mount("/static", StaticFiles(directory="frontend/static"), name="static")
 
 app.include_router(classify.router, prefix="/api")
 app.include_router(chat.router, prefix="/api")
+app.include_router(rewards.router)
 
 @app.get("/")
 async def read_root():
