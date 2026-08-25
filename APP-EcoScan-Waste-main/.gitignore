@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+backend/models/*.pth
+backend/models/*.pt
+uploads/*
+!uploads/.gitkeep
+test_*.py
+*.log
+.env
