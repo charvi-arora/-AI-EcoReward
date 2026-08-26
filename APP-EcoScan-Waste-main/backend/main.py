@@ -1,13 +1,14 @@
+import os
+import sys
+
+# Set parent directory in sys.path before local imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from backend.routes import classify, chat, rewards
 import uvicorn
-import sys
-import os
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-
 app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="frontend/static"), name="static")
